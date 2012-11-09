@@ -7,19 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		315D428715B4F0B800CDC1D8 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315D428515B4F0B800CDC1D8 /* LaunchViewController.m */; };
+		315D428815B4F0B800CDC1D8 /* LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 315D428615B4F0B800CDC1D8 /* LaunchViewController.xib */; };
+		315D428B15B4F0F000CDC1D8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315D428A15B4F0F000CDC1D8 /* MainViewController.m */; };
 		3184AD8615B457D60033BE0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3184AD8515B457D60033BE0D /* UIKit.framework */; };
 		3184AD8815B457D60033BE0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3184AD8715B457D60033BE0D /* Foundation.framework */; };
 		3184AD8A15B457D60033BE0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3184AD8915B457D60033BE0D /* CoreGraphics.framework */; };
 		3184AD9015B457D60033BE0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3184AD8E15B457D60033BE0D /* InfoPlist.strings */; };
 		3184AD9215B457D60033BE0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3184AD9115B457D60033BE0D /* main.m */; };
 		3184AD9615B457D60033BE0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3184AD9515B457D60033BE0D /* AppDelegate.m */; };
-		3184AD9915B457D60033BE0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3184AD9815B457D60033BE0D /* ViewController.m */; };
-		3184AD9C15B457D60033BE0D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3184AD9A15B457D60033BE0D /* ViewController.xib */; };
 		3184ADA415B457D60033BE0D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3184ADA315B457D60033BE0D /* SenTestingKit.framework */; };
 		3184ADA515B457D60033BE0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3184AD8515B457D60033BE0D /* UIKit.framework */; };
 		3184ADA615B457D60033BE0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3184AD8715B457D60033BE0D /* Foundation.framework */; };
 		3184ADAE15B457D60033BE0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3184ADAC15B457D60033BE0D /* InfoPlist.strings */; };
 		3184ADB115B457D60033BE0D /* DemoThesisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3184ADB015B457D60033BE0D /* DemoThesisTests.m */; };
+		3184ADBE15B466080033BE0D /* FindFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3184ADBC15B466080033BE0D /* FindFriendViewController.m */; };
+		3184ADBF15B466080033BE0D /* FindFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3184ADBD15B466080033BE0D /* FindFriendViewController.xib */; };
+		3184ADC315B466320033BE0D /* ExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3184ADC115B466320033BE0D /* ExploreViewController.m */; };
+		3184ADC415B466320033BE0D /* ExploreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3184ADC215B466320033BE0D /* ExploreViewController.xib */; };
+		3184ADCA15B467260033BE0D /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3184ADC815B467260033BE0D /* FriendsViewController.m */; };
+		3184ADCB15B467260033BE0D /* FriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3184ADC915B467260033BE0D /* FriendsViewController.xib */; };
+		3184ADD015B467510033BE0D /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3184ADCE15B467510033BE0D /* UserViewController.m */; };
+		3184ADD115B467510033BE0D /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3184ADCF15B467510033BE0D /* UserViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,25 +42,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		315D428415B4F0B800CDC1D8 /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LaunchViewController.h; path = ../LaunchViewController.h; sourceTree = "<group>"; };
+		315D428515B4F0B800CDC1D8 /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LaunchViewController.m; path = ../LaunchViewController.m; sourceTree = "<group>"; };
+		315D428615B4F0B800CDC1D8 /* LaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchViewController.xib; path = ../LaunchViewController.xib; sourceTree = "<group>"; };
+		315D428915B4F0F000CDC1D8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		315D428A15B4F0F000CDC1D8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		3184AD8115B457D60033BE0D /* DemoThesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoThesis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3184AD8515B457D60033BE0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3184AD8715B457D60033BE0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3184AD8915B457D60033BE0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3184AD8D15B457D60033BE0D /* DemoThesis-Info.plist */ = {isa = PBXFileReference; path = "DemoThesis-Info.plist"; sourceTree = "<group>"; };
+		3184AD8D15B457D60033BE0D /* DemoThesis-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoThesis-Info.plist"; sourceTree = "<group>"; };
 		3184AD8F15B457D60033BE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3184AD9115B457D60033BE0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3184AD9315B457D60033BE0D /* DemoThesis-Prefix.pch */ = {isa = PBXFileReference; path = "DemoThesis-Prefix.pch"; sourceTree = "<group>"; };
-		3184AD9415B457D60033BE0D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3184AD9315B457D60033BE0D /* DemoThesis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoThesis-Prefix.pch"; sourceTree = "<group>"; };
+		3184AD9415B457D60033BE0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3184AD9515B457D60033BE0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3184AD9715B457D60033BE0D /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		3184AD9815B457D60033BE0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3184AD9B15B457D60033BE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		3184ADA215B457D60033BE0D /* DemoThesisTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoThesisTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3184ADA315B457D60033BE0D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3184ADAB15B457D60033BE0D /* DemoThesisTests-Info.plist */ = {isa = PBXFileReference; path = "DemoThesisTests-Info.plist"; sourceTree = "<group>"; };
+		3184ADAB15B457D60033BE0D /* DemoThesisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoThesisTests-Info.plist"; sourceTree = "<group>"; };
 		3184ADAD15B457D60033BE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3184ADAF15B457D60033BE0D /* DemoThesisTests.h */ = {isa = PBXFileReference; path = DemoThesisTests.h; sourceTree = "<group>"; };
+		3184ADAF15B457D60033BE0D /* DemoThesisTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoThesisTests.h; sourceTree = "<group>"; };
 		3184ADB015B457D60033BE0D /* DemoThesisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoThesisTests.m; sourceTree = "<group>"; };
+		3184ADBB15B466080033BE0D /* FindFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFriendViewController.h; sourceTree = "<group>"; };
+		3184ADBC15B466080033BE0D /* FindFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindFriendViewController.m; sourceTree = "<group>"; };
+		3184ADBD15B466080033BE0D /* FindFriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindFriendViewController.xib; sourceTree = "<group>"; };
+		3184ADC015B466320033BE0D /* ExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreViewController.h; sourceTree = "<group>"; };
+		3184ADC115B466320033BE0D /* ExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreViewController.m; sourceTree = "<group>"; };
+		3184ADC215B466320033BE0D /* ExploreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExploreViewController.xib; sourceTree = "<group>"; };
+		3184ADC715B467260033BE0D /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		3184ADC815B467260033BE0D /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		3184ADC915B467260033BE0D /* FriendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendsViewController.xib; sourceTree = "<group>"; };
+		3184ADCD15B467510033BE0D /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		3184ADCE15B467510033BE0D /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		3184ADCF15B467510033BE0D /* UserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +101,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		315D427D15B4F02A00CDC1D8 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				3184ADCC15B4672D0033BE0D /* User */,
+				3184ADC615B466470033BE0D /* Friends */,
+				3184ADC515B466380033BE0D /* Explore */,
+				3184ADBA15B4615B0033BE0D /* FindFriends */,
+				315D428915B4F0F000CDC1D8 /* MainViewController.h */,
+				315D428A15B4F0F000CDC1D8 /* MainViewController.m */,
+			);
+			name = Tabbar;
+			sourceTree = "<group>";
+		};
+		315D427F15B4F03800CDC1D8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		315D428015B4F04300CDC1D8 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Signup;
+			sourceTree = "<group>";
+		};
 		3184AD7615B457D60033BE0D = {
 			isa = PBXGroup;
 			children = (
@@ -111,11 +161,14 @@
 		3184AD8B15B457D60033BE0D /* DemoThesis */ = {
 			isa = PBXGroup;
 			children = (
+				315D427D15B4F02A00CDC1D8 /* Tabbar */,
+				315D428015B4F04300CDC1D8 /* Signup */,
+				315D427F15B4F03800CDC1D8 /* Login */,
 				3184AD9415B457D60033BE0D /* AppDelegate.h */,
 				3184AD9515B457D60033BE0D /* AppDelegate.m */,
-				3184AD9715B457D60033BE0D /* ViewController.h */,
-				3184AD9815B457D60033BE0D /* ViewController.m */,
-				3184AD9A15B457D60033BE0D /* ViewController.xib */,
+				315D428415B4F0B800CDC1D8 /* LaunchViewController.h */,
+				315D428515B4F0B800CDC1D8 /* LaunchViewController.m */,
+				315D428615B4F0B800CDC1D8 /* LaunchViewController.xib */,
 				3184AD8C15B457D60033BE0D /* Supporting Files */,
 			);
 			path = DemoThesis;
@@ -149,6 +202,46 @@
 				3184ADAC15B457D60033BE0D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3184ADBA15B4615B0033BE0D /* FindFriends */ = {
+			isa = PBXGroup;
+			children = (
+				3184ADBB15B466080033BE0D /* FindFriendViewController.h */,
+				3184ADBC15B466080033BE0D /* FindFriendViewController.m */,
+				3184ADBD15B466080033BE0D /* FindFriendViewController.xib */,
+			);
+			name = FindFriends;
+			sourceTree = "<group>";
+		};
+		3184ADC515B466380033BE0D /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				3184ADC015B466320033BE0D /* ExploreViewController.h */,
+				3184ADC115B466320033BE0D /* ExploreViewController.m */,
+				3184ADC215B466320033BE0D /* ExploreViewController.xib */,
+			);
+			name = Explore;
+			sourceTree = "<group>";
+		};
+		3184ADC615B466470033BE0D /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				3184ADC715B467260033BE0D /* FriendsViewController.h */,
+				3184ADC815B467260033BE0D /* FriendsViewController.m */,
+				3184ADC915B467260033BE0D /* FriendsViewController.xib */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
+		3184ADCC15B4672D0033BE0D /* User */ = {
+			isa = PBXGroup;
+			children = (
+				3184ADCD15B467510033BE0D /* UserViewController.h */,
+				3184ADCE15B467510033BE0D /* UserViewController.m */,
+				3184ADCF15B467510033BE0D /* UserViewController.xib */,
+			);
+			name = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +315,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3184AD9015B457D60033BE0D /* InfoPlist.strings in Resources */,
-				3184AD9C15B457D60033BE0D /* ViewController.xib in Resources */,
+				3184ADBF15B466080033BE0D /* FindFriendViewController.xib in Resources */,
+				3184ADC415B466320033BE0D /* ExploreViewController.xib in Resources */,
+				3184ADCB15B467260033BE0D /* FriendsViewController.xib in Resources */,
+				3184ADD115B467510033BE0D /* UserViewController.xib in Resources */,
+				315D428815B4F0B800CDC1D8 /* LaunchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +356,12 @@
 			files = (
 				3184AD9215B457D60033BE0D /* main.m in Sources */,
 				3184AD9615B457D60033BE0D /* AppDelegate.m in Sources */,
-				3184AD9915B457D60033BE0D /* ViewController.m in Sources */,
+				3184ADBE15B466080033BE0D /* FindFriendViewController.m in Sources */,
+				3184ADC315B466320033BE0D /* ExploreViewController.m in Sources */,
+				3184ADCA15B467260033BE0D /* FriendsViewController.m in Sources */,
+				3184ADD015B467510033BE0D /* UserViewController.m in Sources */,
+				315D428715B4F0B800CDC1D8 /* LaunchViewController.m in Sources */,
+				315D428B15B4F0F000CDC1D8 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,14 +390,6 @@
 				3184AD8F15B457D60033BE0D /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3184AD9A15B457D60033BE0D /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3184AD9B15B457D60033BE0D /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 		3184ADAC15B457D60033BE0D /* InfoPlist.strings */ = {
@@ -427,6 +521,7 @@
 				3184ADB615B457D60033BE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3184ADB715B457D60033BE0D /* Build configuration list for PBXNativeTarget "DemoThesisTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +530,7 @@
 				3184ADB915B457D60033BE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

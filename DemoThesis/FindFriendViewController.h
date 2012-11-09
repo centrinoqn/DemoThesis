@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FindFriendViewController.h
 //  DemoThesis
 //
 //  Created by VienLam on 7/16/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface FindFriendViewController : UITableViewController
 
 @end

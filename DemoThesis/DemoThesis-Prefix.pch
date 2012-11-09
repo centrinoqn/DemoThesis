@@ -12,3 +12,7 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+
+#define COLOR_FOR_NAVIGATORBAR      [UIColor colorWithRed:68.0/255.0 green:136.0/255.0 blue:170.0/255.0 alpha:1]
+#define COLOR_FOR_TABBAR             [UIColor colorWithRed:136.0/255.0 green:204.0/255.0 blue:204.0/255.0 alpha:1]

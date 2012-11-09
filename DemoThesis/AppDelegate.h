@@ -7,13 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@class ViewController;
+#import "LaunchViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) LaunchViewController *viewController;
 
 @end
